@@ -1,0 +1,19 @@
+.navbar-dark {
+	.navbar-brand {
+    	color: $navbar-dark-color;
+    	font-family:	$font-family-serif;
+	}
+
+	.navbar-nav {
+		.nav-item {
+			.nav-link {	
+			}
+
+			&.active {
+			    .nav-link {	
+			    	border-bottom: 1px solid $navbar-dark-active-color;
+			  	}
+			}
+		}
+	}
+}

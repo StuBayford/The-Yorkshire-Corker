@@ -1,0 +1,5 @@
+@mixin bg-gradient-variant($parent, $color) {
+  #{$parent} {
+    background: $color linear-gradient(45deg, darken($color, 5%), lighten($color, 5%)) !important;
+  }
+}

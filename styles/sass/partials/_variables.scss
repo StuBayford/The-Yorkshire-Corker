@@ -1,0 +1,40 @@
+/*******************************************************************************
+ * VARIABLES
+ *******************************************************************************/
+$enable-gradients:				true;
+
+$light-green:					#c8e6c9;
+$green:   						#4caf50;
+$dark-green:					#135915;
+$amber:							#ffc107;
+$white:							#ffffff;
+
+$colors: (
+	"light-green":					$light-green,
+	"dark-green":     				$dark-green,
+	"amber":       					$amber,
+);
+
+$primary:       				$green;
+$secondary:     				$amber;
+$tertiary:						$dark-green;
+
+$theme-colors: (
+	"primary":						$primary,
+	"secondary":					$secondary,
+	"tertiary":						$tertiary,
+);
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Rajdhani:300,400,700');
+
+$font-family-sans-serif:		'Montserrat', Roboto, sans-serif;
+$font-family-serif:				'Rajdhani', serif;
+$font-family-base:				$font-family-sans-serif;
+
+$headings-font-family:			$font-family-serif;
+
+$navbar-dark-color:             $white;
+$navbar-dark-active-color:      $green;
+
+$navbar-brand-font-size:		1.75rem;

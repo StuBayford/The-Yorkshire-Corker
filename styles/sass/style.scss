@@ -1,22 +1,11 @@
-$light-green:	#c8e6c9;
-$green:   		#4caf50;
-$dark-green:	#388e3c;
-$amber:			#ffc107;
-
-$colors: (
-  "light-green":	$light-green,
-  "dark-green":     $dark-green,
-  "amber":       	$amber,
-);
-
-$primary:       $green;
-$secondary:     $amber;
-
+// Variables that will overwrite Bootstrap defaults
+@import "partials/variables";
 
 // Required
 @import "../../bootstrap/scss/functions";
 @import "../../bootstrap/scss/variables";
 @import "../../bootstrap/scss/mixins";
+@import "mixins/mixins";
 @import "../../bootstrap/scss/root";
 @import "../../bootstrap/scss/reboot";
 @import "../../bootstrap/scss/type";
@@ -50,18 +39,7 @@ $secondary:     $amber;
 @import "../../bootstrap/scss/utilities";
 @import "../../bootstrap/scss/print";
 
-$theme-colors: (
-  "primary": #0074d9,
-  "danger": #ff4136
-);
-
-$body-bg:                   $dark-green;
-
-nav {
-	background: $primary;
-}
-
-.jumbotron {
-	background-image: url("../../assets/images/banner-1.jpg");
-	background-size: cover;
-}
+//Custom styles
+@import "partials/navbar";
+@import "partials/jumbotron";
+@import "partials/countdown";
