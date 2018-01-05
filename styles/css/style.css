@@ -6907,3 +6907,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 nav {
   background: #4caf50; }
+
+.jumbotron {
+  background-image: url("../../assets/images/banner-1.jpg");
+  background-size: cover; }

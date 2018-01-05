@@ -60,3 +60,8 @@ $body-bg:                   $dark-green;
 nav {
 	background: $primary;
 }
+
+.jumbotron {
+	background-image: url("../../assets/images/banner-1.jpg");
+	background-size: cover;
+}
